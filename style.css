@@ -1,0 +1,175 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
+    width: 100%;
+    z-index: 3;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+header h1 {
+    color: rgb(17, 17, 194);
+    padding: 16px;
+}
+
+.wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 1rem; */
+
+    margin: 1rem 10rem;
+    padding-bottom: 1rem;
+    border-radius: 10px;
+    background-color: #fff;
+
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin: 1rem 0 1rem 0;
+    color: rgb(17, 17, 194);
+    font-weight: bold;
+}
+
+.form-group input {
+    margin: 0 6rem 0 6rem;
+    height: 2rem;
+}
+
+.form-group #submit {
+    margin-top: 2rem;
+    height: 2rem;
+    background-color: rgb(17, 17, 194);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 10rem;
+}
+
+.form-submit {
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 10rem;
+    padding-bottom: 1rem;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#text-container {
+    margin: 1rem 0 1rem 0;
+    color: rgb(17, 17, 194);
+    font-weight: bold;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 1rem;
+    margin-top: 0;
+    padding-top: 0;
+    /* margin-left: 2rem; */
+    /* width: 10rem; */
+    /* height: 10rem; */
+    padding: 6px;
+
+}
+
+.list-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.book-button {
+    justify-content: center;
+}
+
+.book-button button {
+    border-radius: 10px;
+}
+
+.edit-button {
+    width: 40px;
+    height: 40px;
+    background: url('./assets/edit-button.svg');
+    background-size: contain;
+    margin-left: auto;
+    cursor: pointer;
+    border: none;
+}
+
+.delete-button {
+    width: 40px;
+    height: 40px;
+    background: url('./assets/trash-button.svg');
+    background-size: contain;
+    margin-left: auto;
+    cursor: pointer;
+    border: none;
+}
+
+.done-button {
+    width: 40px;
+    height: 40px;
+    background: url('./assets/check-button.svg');
+    background-size: contain;
+    margin-left: auto;
+    cursor: pointer;
+    border: none;
+}
+
+.undo-button {
+    width: 40px;
+    height: 40px;
+    background: url('./assets/undo-button.svg');
+    background-size: contain;
+    margin-left: auto;
+    cursor: pointer;
+    border: none;
+}
+
+#search-results{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 10rem;
+    padding-bottom: 1rem;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#search-results p{
+    margin: 1rem 0 1rem 0;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>BookShelf</title>
+</head>
+<body>
+    <header>
+        <h1>BookShelf</h1>
+    </header>
+    <div class="wrapper">
+        <form id="form-input">
+            <div class="form-group form-title">
+                <label for="title">Book Title:</label>
+                <input type="text" id="title" name="title" required>
+            </div>
+
+            <div class="form-group form-author">
+                <label for="author">Book Author:</label>
+                <input type="text" id="author" name="author" required>
+            </div>
+
+            <div class="form-group form-year">
+                <label for="year">Book Year:</label>
+                <input type="number" id="year" name="year" required>
+            </div>
+
+            <div class="form-group form-submit">
+                <input type="submit" id="submit" name="submit">
+            </div>
+
+        </form>
+    </div>
+
+    <div class="wrapper">
+        <form id="search-form">
+            <div class="form-group form-search">
+                <label for="search-input">Search Books:</label>
+                <input type="text" id="search-input" name="search-input">
+            </div>
+
+            <div class="form-group form-submit">
+                <input type="submit" id="submit" name="submit">
+            </div>
+        </form>
+    </div>
+    <div id="search-results"></div>
+    
+    <div class="container">
+        <h2 id="text-container">Unread Books</h2>
+        <div class="list-item" id="books">
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 id="text-container">Read Books</h2>
+        <div class="list-item" id="books-read"></div>
+        <div class="item">
+        </div>
+    </div>
+    
+
+    <script src="./main.js"></script>
+</body>
+</html>
