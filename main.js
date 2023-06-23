@@ -228,9 +228,9 @@ function saveData(){
 }
 
 function loadDataFromStorage(){
-    const serializedData = JSON.parse(localStorage.getItem(STORAGE_KEY));
-    for(const book of serializedData){
-        if(book !== null){
+    const bookData = JSON.parse(localStorage.getItem(STORAGE_KEY));
+    if(bookData !== null){
+        for(const book of bookData){
             books.push(book);
         }
     }
